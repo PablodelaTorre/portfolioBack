@@ -18,12 +18,12 @@ public class PosibleEmpleador {
     private String nombre;
     private String asunto;
     private String email;
-    private Number telefono;
+    private int telefono;
 
     public PosibleEmpleador() {
     }
 
-    public PosibleEmpleador(Long id, String nombre, String asunto, Number telefono, String email) {
+    public PosibleEmpleador(Long id, String nombre, String asunto, int telefono, String email) {
         this.id = id;
         this.nombre = nombre;
         this.asunto = asunto;
